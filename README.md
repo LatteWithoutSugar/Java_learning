@@ -15,5 +15,6 @@ Git 常用命令：
 9. git checkout -b branch_name 新建分支后自动切换到新分支
    git checkout 切换分支
 10.git pull origin remote_branch:local_branch 从远端服务器获取某个分支的更新，再与本地指定的分支进行自动合并
-   
-hahahahaha
+11.git fetch origin remote_branch:local_branch 从远端服务器中获取某个分支的更新到本地仓库（与git pull不同，不会进行git merge合并操作）
+12.git merge branch_name 从指定分支合并到当前分支
+13.
