@@ -8,3 +8,12 @@ Git 常用命令：
 5. git commit -m "commit message" 将暂存区的文件改动提交到本地版本库
 6. git log 查看日志
 7. git push origin branch_name 推送至远端
+8. git branch 查看本地工程的所有git分支名称（*表示当前工作区所在分支）
+   git branch -r 查看远端服务器上的分支
+   git branch -a 查看远端服务器和本地工程所有的分支
+   git branch -d/D branch_name 删除本地分支（D表示强制删除）
+9. git checkout -b branch_name 新建分支后自动切换到新分支
+   git checkout 切换分支
+10.git pull origin remote_branch:local_branch 从远端服务器获取某个分支的更新，再与本地指定的分支进行自动合并
+   
+hahahahaha
