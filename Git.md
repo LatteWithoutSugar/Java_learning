@@ -16,4 +16,4 @@ Git 常用命令：
    git checkout 切换分支
 10.git pull origin remote_branch:local_branch 从远端服务器获取某个分支的更新，再与本地指定的分支进行自动合并
    
-hahahahaha
+
